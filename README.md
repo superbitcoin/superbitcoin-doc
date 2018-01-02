@@ -1,2 +1,2 @@
 # SBTC-Logo
-superbitcoin logo source file
+superbitcoin logo file
