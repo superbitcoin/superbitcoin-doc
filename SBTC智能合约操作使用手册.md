@@ -122,16 +122,16 @@ contract test {
          return a * 7;     
        }    
 }    
+![Alt text](https://github.com/superbitcoin/superbitcoin-doc/blob/master/pictures/contract01.png)
+ 
+六. 在IDE上，编译源码。<br />
+![Alt text](https://github.com/superbitcoin/superbitcoin-doc/blob/master/pictures/contract02.png)
 
- 
-六. 在IDE上，编译源码。
- 
-
-获得编译后的二进制代码    
- 
+获得编译后的二进制代码<br />
+![Alt text](https://github.com/superbitcoin/superbitcoin-doc/blob/master/pictures/contract03.png)
 
 获得ABI接口对应合约函数编码：    
- 
+![Alt text](https://github.com/superbitcoin/superbitcoin-doc/blob/master/pictures/contract04.png)
 
 
 七. 使用sbtc-cli控制台部署合约代码。    
