@@ -80,14 +80,14 @@ Results:
 (3).transactionReceipt    
 eg: ./sbtc-cli --datadir=../datadir/sbtc/testB callcontract 4a822f9f1870407bd70074436f4f2b8b23f50c9a 70a082310000000000000000000000009fa49a4a4b68cf98ce65f2adac08c98df0652567
 
-6. listcontract    
+6. listcontracts    
 功能：列出合约信息    
 params:    
 (1). start  (numeric or string, optional) The starting account index, default 1     
 (2). maxDisplay  (numeric or string, optional) Max accounts to list, default 20    
 Results:    
 (1). contract address and balance in json    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB listcontract     
+eg: ./sbtc-cli --datadir=../datadir/sbtc/testB listcontracts     
 
 7. gettransactionreceipt    
 功能：获取交易单信息    
