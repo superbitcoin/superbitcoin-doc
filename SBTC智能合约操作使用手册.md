@@ -55,7 +55,7 @@ Results:
 (2). balance the balance of account    
 (3). storage    
 (4). code    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB getaccountinfo 5a2e68b20e753ad70d6bc80afafa44289be9e2f3
+eg: ./sbtc-cli --datadir=./ getaccountinfo 5a2e68b20e753ad70d6bc80afafa44289be9e2f3
 
 4. getstorage    
 功能：获取合约账户存储的信息    
@@ -65,7 +65,7 @@ params:
 (3).index  (number, optional) Zero-based index position of the storage    
 Results:    
 (1). storage info in json    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB getstorage 5a2e68b20e753ad70d6bc80afafa44289be9e2f3    
+eg: ./sbtc-cli --datadir=./ getstorage 5a2e68b20e753ad70d6bc80afafa44289be9e2f3    
 
 5. callcontract    
 功能：调用合约    
@@ -78,7 +78,7 @@ Results:
 (1).address   The  contract address    
 (2).executionResult     
 (3).transactionReceipt    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB callcontract 4a822f9f1870407bd70074436f4f2b8b23f50c9a 70a082310000000000000000000000009fa49a4a4b68cf98ce65f2adac08c98df0652567
+eg: ./sbtc-cli --datadir=./ callcontract 4a822f9f1870407bd70074436f4f2b8b23f50c9a 70a082310000000000000000000000009fa49a4a4b68cf98ce65f2adac08c98df0652567
 
 6. listcontracts    
 功能：列出合约信息    
@@ -87,7 +87,7 @@ params:
 (2). maxDisplay  (numeric or string, optional) Max accounts to list, default 20    
 Results:    
 (1). contract address and balance in json    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB listcontracts     
+eg: ./sbtc-cli --datadir=./ listcontracts     
 
 7. gettransactionreceipt    
 功能：获取交易单信息    
@@ -95,7 +95,7 @@ params:
 (1). hash  (string, required) The transaction hash     
 Results:    
 (1). log info in json    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB  gettransactionreceipt fdbce276a79b818af4321f1e2fb609f72d4e519e6562aba68a5160e0d9cbd4ad
+eg: ./sbtc-cli --datadir=./ gettransactionreceipt fdbce276a79b818af4321f1e2fb609f72d4e519e6562aba68a5160e0d9cbd4ad
 
 8. searchlog    
 功能：查询log信息    
@@ -107,11 +107,11 @@ params:
 (5). minconf  (uint, optional, default=0) Minimal number of confirmations before a log is returned    
 Results:    
 (1).log info in json    
-eg: ./sbtc-cli --datadir=../datadir/sbtc/testB searchlogs  1 400    
+eg: ./sbtc-cli --datadir=./ searchlogs  1 400    
 
 
 四. 启动一个sbtc节点    
-./sbtd --datadir=../datadir/sbtc/testB    
+./sbtcd --datadir=/datadir/sbtc/testA 
 
 五. 在IDE上，用solidity编写合约代码。    
 pragma solidity ^0.4.17;    
